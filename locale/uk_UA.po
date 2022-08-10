@@ -117,7 +117,8 @@ msgid "The file {name} already exists. Do you want to overwrite it?"
 msgstr "Файл {name} вже існує. Ви дійсно хочете перезаписати його?"
 
 #: ../chirpui/importdialog.py:90
-msgid "Location {number} is already being imported. Choose another value for 'New Location' before selection 'Import'"
+msgid ""
+"Location {number} is already being imported. Choose another value for 'New "
 msgstr "Розташування {number} вже імпортуються. Виберіть інше значення для 'Нове розташування' перед вибором 'Імпорт'"
 
 #: ../chirpui/importdialog.py:121
@@ -256,13 +257,17 @@ msgstr "CSV-файли"
 msgid "ICF Files"
 msgstr "ICF файли"
 
-#: ../chirpui/mainapp.py:320 ../chirpui/mainapp.py:718
+#: ../chirp/ui/mainapp.py:334 ../chirp/ui/mainapp.py:886
 msgid "VX7 Commander Files"
 msgstr "Файли VX7 командира"
 
-#: ../chirpui/mainapp.py:330
-msgid "ICF files cannot be edited, only displayed or imported into another file. Open in read-only mode?"
-msgstr "ICF файли не можна редагувати, тільки відобразити або імпортувати. Відкрити в режимі тільки для читання?"
+#: ../chirp/ui/mainapp.py:348
+msgid ""
+"ICF files cannot be edited, only displayed or imported into another file. "
+"Open in read-only mode?"
+msgstr ""
+"ICF файли не можна редагувати, тільки відобразити або імпортувати. "
+"Відкрити в режимі тільки для читання?"
 
 #: ../chirpui/mainapp.py:373
 msgid "There was an error opening {fname}: {error}"
@@ -276,33 +281,162 @@ msgstr "{num} помилки під час відкриття:"
 msgid "Note:"
 msgstr "Примітка:"
 
-#: ../chirpui/mainapp.py:395
-msgid "The {vendor} {model} operates in <b>live mode</b>. This means that any changes you make are immediately sent to the radio. Because of this, you cannot perform the <u>Save</u> or <u>Upload</u> operations. If you wish to edit the contents offline, please <u>Export</u> to a CSV file, using the <b>File menu</b>."
-msgstr "{vendor} {model} працює в <b>режимі реального часу</b>. Це означає, що будь-які зміни негайно відправляються на радіостанцію. Через це не вдалося виконати <u>Збереження</u> або <u>Запис</u> операцій. Якщо ви хочете редагувати вміст в автономному режимі, будь ласка, <u>Експортуйте</u> файл CSV, за допомогою <b>Меню Файл</b>."
+#: ../chirp/ui/mainapp.py:421
+#, python-brace-format
+msgid ""
+"The {vendor} {model} operates in <b>live mode</b>. This means that any "
+"changes you make are immediately sent to the radio. Because of this, you "
+"cannot perform the <u>Save</u> or <u>Upload</u> operations. If you wish to "
+"edit the contents offline, please <u>Export</u> to a CSV file, using the "
+"<b>File menu</b>."
+msgstr ""
+"{vendor} {model} працює в <b>режимі реального часу</b>. "
+"Це означає, що будь-які зміни негайно відправляються на радіостанцію. "
+"Через це не вдалося виконати <u>Збереження</u> або <u>Запис</u> операцій. "
+"Якщо ви хочете редагувати вміст в автономному режимі, будь ласка, "
+"<u>Експортуйте</u> файл CSV, за допомогою <b>Меню Файл</b>."
 
-#: ../chirpui/mainapp.py:404
+#: ../chirp/ui/mainapp.py:430
 msgid "Don't show this again"
 msgstr "Не показувати наступного разу"
 
-#: ../chirpui/mainapp.py:448
+#: ../chirp/ui/mainapp.py:464
+#, python-brace-format
 msgid "{vendor} {model} image file"
 msgstr "файлу образу {vendor} {model}"
 
-#: ../chirpui/mainapp.py:456
+#: ../chirp/ui/mainapp.py:480
 msgid "VX7 Commander"
 msgstr "Командир VX7"
 
-#: ../chirpui/mainapp.py:518
-msgid "Open recent file {name}"
-msgstr "Відкриті останній файл {name}"
+#: ../chirp/ui/mainapp.py:482
+#, fuzzy
+msgid "VX6 Commander"
+msgstr "Командир VX6"
 
-#: ../chirpui/mainapp.py:579
+#: ../chirp/ui/mainapp.py:484
+msgid "EVE"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:485
+#, fuzzy
+msgid "VX5 Commander"
+msgstr "Командир VX5"
+
+
+
+#: ../chirp/ui/mainapp.py:562
+#, fuzzy
+msgid "Open recent file"
+msgstr "Відкрити останній файл {name}"
+
+#: ../chirp/ui/mainapp.py:631
+#, python-brace-format
 msgid "Import stock configuration {name}"
 msgstr "Імпорт заводської конфігурації {name}"
 
-#: ../chirpui/mainapp.py:595
+#: ../chirp/ui/mainapp.py:647
+#, python-brace-format
 msgid "Open stock configuration {name}"
-msgstr "Відкрите заводські конфігурації {name}"
+msgstr "Відкрити заводські конфігурації {name}"
+
+#: ../chirp/ui/mainapp.py:668
+msgid "Proceed with experimental driver?"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:670
+msgid "This radio's driver is experimental. Do you want to proceed?"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:689
+#, python-brace-format
+msgid "{name} Information"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:691
+#, python-brace-format
+msgid "{information}"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:695
+#, fuzzy
+msgid "Don't show information for any radio again"
+msgstr "Don't show this again"
+
+#: ../chirp/ui/mainapp.py:719
+#, python-brace-format
+msgid "{name} Instructions"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:721
+#, python-brace-format
+msgid "{instructions}"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:725
+#, fuzzy
+msgid "Don't show instructions for any radio again"
+msgstr "Don't show this again"
+
+#: ../chirp/ui/mainapp.py:840
+#, fuzzy
+msgid "Save Changes?"
+msgstr "Discard Changes?"
+
+#: ../chirp/ui/mainapp.py:846
+msgid "File is modified, save changes before closing?"
+msgstr "File is modified, save changes before closing?"
+
+#: ../chirp/ui/mainapp.py:881
+msgid "Kenwood HMK Files"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:882
+msgid "Kenwood ITM Files"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:883
+msgid "Travel Plus Files"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:904
+msgid "DMR-MARC Repeater Database Dump"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1014 ../chirp/ui/mainapp.py:1121
+msgid "RepeaterBook Query"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1075 ../chirp/ui/mainapp.py:1181
+msgid "RepeaterBook query failed"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1248
+#, python-format
+msgid "Invalid value for %s"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1271
+msgid "Query failed"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1366 ../chirp/ui/mainapp.py:1431
+msgid "RadioReference.com Query"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1502
+msgid "RadioReference.com Province Query"
+msgstr ""
+
+#: ../chirp/ui/mainapp.py:1603
+msgid "With significant contributions from:"
+msgstr ""
+
+
+
+
+
+
 
 #: ../chirpui/mainapp.py:681
 msgid "Discard Changes?"
@@ -329,7 +463,13 @@ msgid "Reporting is disabled"
 msgstr "Звіти вимкнуто"
 
 #: ../chirpui/mainapp.py:1013
-msgid "The reporting feature of CHIRP is designed to help <u>improve quality</u> by allowing the authors to focus on the radio drivers used most often and errors experienced by the users. The reports contain no identifying information and are used only for statistical purposes by the authors. Your privacy is extremely important, but <u>please consider leaving this feature enabled to help make CHIRP better!</u>\n"
+msgid ""
+"The reporting feature of CHIRP is designed to help <u>improve quality</u> by "
+"allowing the authors to focus on the radio drivers used most often and "
+"errors experienced by the users. The reports contain no identifying "
+"information and are used only for statistical purposes by the authors. Your "
+"privacy is extremely important, but <u>please consider leaving this feature "
+"enabled to help make CHIRP better!</u>\n"
 "\n"
 "<b>Are you sure you want to disable this feature?</b>"
 msgstr "Функцію звітування CHIRP розроблено, щоб допомогти <u>поліпшити якість</u>, дозволяючи авторам зосередитися на драйверах радіостанцій, що найчастіше використовується і помилках досвідчених користувачів. Звіти не містять ідентифікаційну інформацію і використовуються тільки для статистичних цілей авторів. Ваша конфіденційність є надзвичайно важлива, але <u>будь ласка, залиште цю функцію включеною, щоб допомогти зробити CHIRP краще!</u>\n"
@@ -471,8 +611,10 @@ msgid "Error reporting is enabled"
 msgstr "Звітування про критичні помилки ввімкнуто"
 
 #: ../chirpui/mainapp.py:1355
-msgid "If you wish to disable this feature you may do so in the <u>Help</u> menu"
-msgstr "Якщо ви хочете вимкнути цю функцію, ви можете зробити це в меню <u>Довідка</u>"
+msgid ""
+"If you wish to disable this feature you may do so in the <u>Help</u> menu"
+msgstr ""
+"Якщо ви хочете вимкнути цю функцію, ви можете зробити це в меню <u>Довідка</u>"
 
 #: ../chirpui/cloneprog.py:43
 msgid "Clone Progress"
@@ -602,8 +744,11 @@ msgid "Internal Error"
 msgstr "Внутрішня помилка"
 
 #: ../chirpui/editorset.py:248
-msgid "There were errors while opening {file}. The affected memories will not be importable!"
-msgstr "Там були помилки при відкритті {file}. Порушена пам'ять не буде імпортована!"
+msgid ""
+"There were errors while opening {file}. The affected memories will not be "
+"importable!"
+msgstr ""
+"Там були помилки при відкритті {file}. Порушена пам'ять не буде імпортована!"
 
 #: ../chirpui/editorset.py:260
 msgid "There was an error during import: {error}"
@@ -740,7 +885,10 @@ msgid "Writing memory {number}"
 msgstr "Запис пам'яті {number}"
 
 #: ../chirpui/memedit.py:361
-msgid "This operation requires moving all subsequent channels by one spot until an empty location is reached.  This can take a LONG time.  Are you sure you want to do this?"
+msgid ""
+"This operation requires moving all subsequent channels by one spot until an "
+"empty location is reached.  This can take a LONG time.  Are you sure you "
+"want to do this?"
 msgstr "Ця операція вимагає переміщення всіх наступних каналів на одне місце до тих пір, поки пусте місце не буде досягнуто. Це може зайняти багато часу. Ви впевнені, що хочете це зробити?"
 
 #: ../chirpui/memedit.py:387
