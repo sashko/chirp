@@ -1111,7 +1111,7 @@ msgstr "Letöltés a rádióról"
 #: ../wxui/clone.py:791
 #, fuzzy
 msgid "Download instructions"
-msgstr "{name} Utasítások"
+msgstr ""
 
 #: ../wxui/radioinfo.py:66
 msgid "Driver"
@@ -1202,7 +1202,7 @@ msgstr ""
 #: ../wxui/common.py:340
 #, fuzzy, python-format
 msgid "Erased memory %s"
-msgstr "A(z) {loc}. memóriahely törlése"
+msgstr ""
 
 #: ../wxui/memquery.py:336
 #, fuzzy
@@ -2080,7 +2080,7 @@ msgstr ""
 #: ../wxui/main.py:649
 #, fuzzy
 msgid "Open stock config directory"
-msgstr "A(z) {name} konfigurációs készlet megnyitása"
+msgstr ""
 
 #: ../wxui/memquery.py:143
 msgid "Operator"
@@ -2560,7 +2560,7 @@ msgstr "Ugrás"
 #: ../wxui/memedit.py:2647
 #, fuzzy
 msgid "Some memories are incompatible with this radio"
-msgstr "A beillesztett {number}. számú memória nem kompatibilis ezzel a rádióval, mert:"
+msgstr ""
 
 #: ../wxui/memedit.py:2485
 msgid "Some memories are not deletable"
@@ -2861,12 +2861,12 @@ msgstr "A csoportos beállítás megnyitása"
 #: ../wxui/memedit.py:2502
 #, fuzzy
 msgid "Unable to import while the view is sorted"
-msgstr "Nem érzékelek a {port} porton!"
+msgstr ""
 
 #: ../wxui/common.py:238
 #, fuzzy
 msgid "Unable to open the clipboard"
-msgstr "Nem érzékelek a {port} porton!"
+msgstr ""
 
 #: ../sources/przemienniki_eu.py:46 ../sources/przemienniki_net.py:48
 #: ../sources/mapy73pl.py:50
@@ -2921,7 +2921,7 @@ msgstr "URCALL lista frissítése."
 #: ../wxui/clone.py:898
 #, fuzzy
 msgid "Upload instructions"
-msgstr "{instructions}"
+msgstr ""
 
 #: ../drivers/uvk5.py:2084
 msgid "Upload is disabled due to unsupported firmware version"

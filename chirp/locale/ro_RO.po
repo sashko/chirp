@@ -2361,12 +2361,12 @@ msgstr "Nu există exemplu pentru %s"
 
 #: ../wxui/developer.py:706
 msgid "No modules found"
-msgstr "Nu au fost găsite module"
+msgstr "Nu au fost găsite module %"
 
 #: ../wxui/developer.py:705
 #, python-format
 msgid "No modules found in issue %i"
-msgstr "Nu au fost găsite module în problema %"
+msgstr "Nu au fost găsite module în problema %i"
 
 #: ../wxui/memedit.py:2576
 msgid "No more space available; some memories were not applied"
